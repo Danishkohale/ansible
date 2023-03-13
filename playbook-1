@@ -1,0 +1,7 @@
+name : ansible book
+hosts : client1
+tasks:
+    -name : code to install git
+    yum : 
+    name : git
+    state : present
